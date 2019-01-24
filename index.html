@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jsonlint Validation Tool - Json Hause</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script defer src="js/custom.js"></script>
+</head>
+<body class="bg-yellowish">
+  <header class="w-100 bb b--black-10 bg-white">
+      <h1 class="ma0 pa4 f3 code dark-gray">Json.<span class="gold">Hause</span></h1>
+  </header>
+  <section class="">
+    <div id="scrollable-container" class="m-h5 flex center mt4 w-75 ba b--black-10 h5 overflow-y-scroll">
+      <div id="textarea-lines" class="gray fw1 code tr bg-near-white w2-5 br b--black-10 pv2 pr2">
+        1
+      </div>
+      <textarea id="json-textarea" placeholder="Paste Json Here..." class="nowrap w-100 ba--none bn code pa2 textarea-style"></textarea>
+    </div>
+    <div class="w-75 center mt4">
+      <button id="validate-button" class="code f5 ba dib shadow-4 shadow-hover b--black-40 bw1 bg-white gray pa3  no-underline">
+        Validate
+      </button>
+      <p id="valid-p" class="code bg-washed-green green ba b--green pa3 mt4 dn">
+        Valid JSON
+      </p>
+      <p id="invalid-p" class="code bg-washed-red red ba b--red pa3 mt4 dn"></p>
+    </div>
+  </section>
+</body>
+</html>
